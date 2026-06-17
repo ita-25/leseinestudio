@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — La Seine Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/variables.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/animations.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<style>
+  body{background:var(--plum-deep);}
+  .error-page{color:var(--cream);}
+</style>
+</head>
+<body>
+
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<header id="header">
+  <a href="index.html" class="logo">La Seine Studio</a>
+  <nav class="links">
+    <a href="index.html">Home</a>
+    <a href="stories.html">Stories</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="stories.html">Stories</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section class="error-page">
+  <span class="big">404</span>
+  <h1>This page slipped behind the curtain.</h1>
+  <p>Even the best stories have scenes that didn't make the final cut. Let's get you back to one that did.</p>
+  <a href="index.html" class="btn btn-primary">Return Home</a>
+</section>
+
+<footer>
+  <div class="footer-bottom" style="border-top:none;justify-content:center;">
+    <span>© 2026 La Seine Studio. All stories reserved.</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
